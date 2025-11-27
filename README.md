@@ -92,4 +92,4 @@ Supports planning, forecasting, and resource optimization.
 
 
 Screenshot /Demo Images  
-
+https://github.com/ujjwalsingh2603/Agri-Dashboard/blob/main/Snapshot%202025-11-27%20151228.png
