@@ -1,95 +1,138 @@
-# Agri-Dashboard
-🌾 Agriculture Analytics Dashboard (AWS → Snowflake → Power BI)
-📌 Project Overview
-End-to-end cloud-based data analytics pipeline for agricultural insights.
+# 🌾 Agriculture Analytics Dashboard  
+### AWS S3 • Snowflake • Power BI
 
-Raw agricultural datasets stored in AWS S3 with secure access using IAM Roles.
+This project is an **end-to-end cloud-based data analytics solution** that analyzes agricultural data to uncover insights related to **rainfall, temperature, yield, and humidity** across different years, seasons, locations, and crops.  
+The goal is to support **data-driven agricultural and business decisions** using modern analytics tools.
 
-Data loaded into Snowflake, cleaned, transformed, and modeled using SQL.
+---
 
-Final analysis and dashboards created in Power BI for temperature, humidity, rainfall, and crop yield insights.
+## 📌 Project Overview
 
-🛠️ Tech Stack
-AWS Cloud
+This project follows a complete analytics pipeline:
+- Cloud data storage using **AWS S3**
+- Data ingestion and transformation using **Snowflake**
+- Interactive reporting using **Power BI**
 
-Amazon S3
+The analysis focuses on understanding how **environmental and seasonal factors** impact crop yield and agricultural outcomes.
 
-IAM Roles
+---
 
-Snowflake
+## 🧱 Architecture & Workflow
 
-SQL transformations
+1. Created an **Amazon S3 bucket** and uploaded raw CSV data  
+2. Configured **IAM roles** and trust policies for secure integration  
+3. Created **Snowflake integration objects**  
+4. Loaded data from **S3 into Snowflake**  
+5. Performed **data exploration and transformation using Snowflake SQL**  
+6. Added derived columns such as **Rainfall Groups**  
+7. Connected **Power BI to Snowflake**  
+8. Built multiple analytical dashboards  
+9. Published the report to **Power BI Service**
 
-External stages for S3 integration
+---
 
-SQL
+## 🗂️ Dataset Description
 
-Data cleaning, modeling, aggregation
+The dataset contains agricultural and environmental attributes with the following columns:
 
-Power BI
+| Column Name | Description |
+|------------|-------------|
+| Year | Year of observation |
+| Location | Geographic location |
+| Area | Cultivated area |
+| Rainfall | Rainfall amount |
+| Temperature | Average temperature |
+| Soil type | Type of soil |
+| Irrigation | Irrigation availability |
+| Yields | Crop yield |
+| Humidity | Humidity percentage |
+| Crops | Crop type |
+| Price | Market price |
+| Season | Season of cultivation |
 
-Interactive dashboards and reports
+---
 
-MS Excel
+## 🛠️ Tools & Technologies Used
 
-Raw data creation and initial formatting
+- **Cloud Storage:** AWS S3  
+- **Data Warehouse:** Snowflake  
+- **Query Language:** Snowflake SQL  
+- **Visualization:** Power BI  
+- **Data Source:** CSV files  
 
-📂 Data Source
-Self-created agricultural dataset (MS Excel)
+---
 
-Includes temperature, humidity, rainfall, and crop yield data
+## 📊 Power BI Reports Created
 
-⚙️ Workflow
-Prepared raw dataset in Excel.
+Four interactive Power BI reports were developed:
 
-Uploaded data to Amazon S3 bucket.
+1. **Rainfall Analysis**
+2. **Temperature Analysis**
+3. **Yield Analysis**
+4. **Humidity Analysis**
 
-Configured IAM Roles for secure Snowflake access.
+Each report allows analysis by:
+- Year  
+- Season  
+- Location  
+- Crop type  
 
-Connected Snowflake with S3 using external stage.
+---
 
-Loaded data using COPY INTO commands.
+## ❓ Business Questions Answered
 
-Performed SQL-based data cleaning & transformations.
+### 1️⃣ How does rainfall vary across different seasons and locations?
+**Answer:**  
+Rainfall patterns vary significantly by season and region, helping identify areas prone to water scarcity or excess rainfall.
 
-Exported refined data to Power BI.
+---
 
-Built multiple dashboards for climate and yield insights.
+### 2️⃣ What is the relationship between temperature and crop yield?
+**Answer:**  
+Moderate temperature ranges show higher yields, while extreme temperatures negatively impact crop productivity.
 
-⭐ Key Features
-Complete cloud-to-visualization pipeline (AWS → Snowflake → Power BI).
+---
 
-Secure setup using IAM role–based authentication.
+### 3️⃣ Which crops perform best under specific rainfall and humidity conditions?
+**Answer:**  
+Certain crops demonstrate higher yields in high-humidity and moderate-rainfall conditions, supporting optimized crop selection.
 
-Snowflake SQL transformations including:
+---
 
-Null handling
+### 4️⃣ How do seasonal changes impact agricultural yield?
+**Answer:**  
+Seasonal trends reveal yield fluctuations, enabling better planning for sowing and harvesting cycles.
 
-Data type corrections
+---
 
-Aggregations and trend calculations
+### 5️⃣ Which locations consistently produce higher yields?
+**Answer:**  
+Specific locations show stable high yields across years, indicating favorable environmental and soil conditions.
 
-Cleaning invalid or inconsistent records
+---
 
-Created 4 detailed Power BI dashboards:
+## 📈 Key Insights
 
-🌡️ Temperature Analysis
+- Environmental factors such as **rainfall and temperature** have a direct impact on crop yield  
+- Seasonal analysis helps identify **optimal growing periods**  
+- Location-based insights support **region-specific agricultural planning**  
+- Interactive dashboards improve **decision-making efficiency**
 
-💧 Humidity Insights
+---
 
-🌧️ Rainfall Patterns
+## 🔗 Power BI Report Link
 
-🌾 Crop Yield Dashboard
+👉 **Live Dashboard:**  
+[Add your Power BI report link here]
 
-Scalable pipeline suitable for large agricultural datasets.
+---
 
-📈 Business Impact
-Provides actionable insights for farmers and agronomists.
+## 🖼️ Dashboard Preview
 
-Helps identify climate factors affecting crop yield.
+> Add screenshots of your Power BI dashboards below for better visibility.
 
-Supports planning, forecasting, and resource optimization.
-
-
-Screenshot /Demo Images  
-https://github.com/ujjwalsingh2603/Agri-Dashboard/blob/main/Snapshot%202025-11-27%20151228.png
+```markdown
+![Rainfall Dashboard](images/rainfall_dashboard.png)
+![Temperature Dashboard](images/temperature_dashboard.png)
+![Yield Dashboard](images/yield_dashboard.png)
+![Humidity Dashboard](images/humidity_dashboard.png)
