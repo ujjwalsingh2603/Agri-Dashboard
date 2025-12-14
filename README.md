@@ -123,7 +123,7 @@ Specific locations show stable high yields across years, indicating favorable en
 ## 🔗 Power BI Report Link
 
 👉 **Live Dashboard:**  
-[Add your Power BI report link here]
+[https://github.com/ujjwalsingh2603/Agri-Dashboard/blob/main/agri%20%20dashboard.pbit]
 
 ---
 
