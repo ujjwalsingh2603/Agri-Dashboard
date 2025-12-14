@@ -128,7 +128,7 @@ Specific locations show stable high yields across years, indicating favorable en
 ![Temperature Analysis](https://github.com/USERNAME/REPO_NAME/blob/main/images/temperature_dashboard.png)
 
 #### 🌾 Yield Analysis Dashboard
-![Yield Analysis](https://github.com/USERNAME/REPO_NAME/blob/main/images/yield_dashboard.png)
+![Yield Analysis](https://github.com/ujjwalsingh2603/Agri-Dashboard/blob/main/Snapshot%202025-11-27%20151228.png)
 
 #### 💧 Humidity Analysis Dashboard
 ![Humidity Analysis](https://github.com/ujjwalsingh2603/Agri-Dashboard/blob/main/Snapshot%202025-11-27%20151118.png)
