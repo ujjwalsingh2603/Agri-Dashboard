@@ -119,20 +119,17 @@ Specific locations show stable high yields across years, indicating favorable en
 - Interactive dashboards improve **decision-making efficiency**
 
 ---
+### 📊 Dashboard Preview
 
-## 🔗 Power BI Report Link
+#### 🌧️ Rainfall Analysis Dashboard
+![Rainfall Analysis](https://github.com/USERNAME/REPO_NAME/blob/main/images/rainfall_dashboard.png)
 
-👉 **Live Dashboard:**  
-[https://github.com/ujjwalsingh2603/Agri-Dashboard/blob/main/agri%20%20dashboard.pbit]
+#### 🌡️ Temperature Analysis Dashboard
+![Temperature Analysis](https://github.com/USERNAME/REPO_NAME/blob/main/images/temperature_dashboard.png)
 
----
+#### 🌾 Yield Analysis Dashboard
+![Yield Analysis](https://github.com/USERNAME/REPO_NAME/blob/main/images/yield_dashboard.png)
 
-## 🖼️ Dashboard Preview
+#### 💧 Humidity Analysis Dashboard
+![Humidity Analysis](https://github.com/USERNAME/REPO_NAME/blob/main/images/humidity_dashboard.png)
 
-> Add screenshots of your Power BI dashboards below for better visibility.
-
-```markdown
-![Rainfall Dashboard](images/rainfall_dashboard.png)
-![Temperature Dashboard](images/temperature_dashboard.png)
-![Yield Dashboard](images/yield_dashboard.png)
-![Humidity Dashboard](images/humidity_dashboard.png)
